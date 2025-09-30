@@ -8,7 +8,7 @@
   <title>Hello Rigo with Vanilla.js</title>
 
   <!-- Fontawesome is our recomended library for icons -->
-   <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="style.css">
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"
     integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ" crossorigin="anonymous" />
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet"
@@ -17,14 +17,12 @@
 
 <body class="body">
   <!-- Write your HTML code here, you can delete everything withing the body tags -->
-  <div class="card" style="width: 18rem; height: 26rem;">
-    <img>
-    <div class="card-body">
-      <h5 class="card-title">Card title</h5>
-      <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card’s
-        content.</p>
-      <a href="#" class="btn btn-primary ">Go somewhere</a>
-    </div>
+  <div class="card position-relative" style="width: 18rem; height: 26rem;">
+    <h5 class="card-title position-absolute top-0 start-0">Card title</h5>
+    <p class="card-title position-absolute top-50 start-50 translate-middle">Some quick example text to build on the card title and make up the bulk of the card’s
+      content.</p>
+    <h5 class="card-title position-absolute bottom-0 end-0" style="margin-bottom: 5px;">Flex item</h5>
+  </div>
   </div>
 
   <!-- Do not delete this script tag, this is what connects your HTML with the Javascript code -->
