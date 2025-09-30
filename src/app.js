@@ -11,12 +11,9 @@ window.onload = function() {
 
   function randomfigure() {
     let figures = ['♦', '♥', '♠' ,'♣'];
-    figures = Math.floor(Math.random() * figures.length)
+    let rndm = Math.floor(Math.random() * figures.length)
+    
     
   }
 
 };
-
-
-
-♦ ♥ ♠ ♣
