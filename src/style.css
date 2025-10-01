@@ -9,3 +9,11 @@ body{
 .body{
     background-color: green;
 }
+#cardfigure1, #cardfigure2{
+    font-size: 100px;
+    margin-inline: 10px;
+}
+#cardnumber{
+    font-size: 100px;
+}
+
